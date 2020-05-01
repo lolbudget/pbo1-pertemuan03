@@ -2,22 +2,27 @@ package percabangan;
 
 public class Switch {
     public static void main(String[] args) {
-        int jalanJalan=3;
-        switch (jalanJalan){
-            case 1:
-                System.out.println("urang lapas");
+        char nilai='D';
+        switch (nilai){
+            case 'A':
+                System.out.println("Mhs   : \"Assalamu'alaikum Wr. Wb. Pak\"");
+                System.out.println("Dosen : \"Wa'alaikumsalam Wr. Wb.\"");
                 break;
-            case 2:
-                System.out.println("urang acayan");
+            case 'B':
+                System.out.println("Mhs   : \"Kenapa nilai ulun A, Pak?\"");
+                System.out.println("Dosen : \"karena Bapak baik, saya kasih semua mahasiswa nilainya A\"");
                 break;
-            case 3:
-                System.out.println("ubat nyamuk");
+            case 'C':
+                System.out.println("Mhs   : \"Kenapa nilai ulun C, Pak?\"");
+                System.out.println("Dosen : \"Maaflah Bapak salah input, seharusnya A\"");
+                System.out.println("Mhs   : \"Inggih Pak, Hiihihi\"");
                 break;
-            case 4:
-                System.out.println("dubil dit");
-                break;
-            case 5:
-                System.out.println("mahluk halus");
+            default:
+                System.out.println("Mhs   : \"Kenapa nilai ulun C, Pak?\"");
+                System.out.println("Dosen : \"Nama & NPM?\"");
+                System.out.println("Mhs   : \"Mustaqim Noor, NPM 18631043\"");
+                System.out.println("Dosen : \"Absensi bagus, Tugas bagus, UTS bagus, UAS bagus, hadang Bapak ganti jadi A\"");
+                System.out.println("Mhs   : \"Inggih Pak pak, Tterima kasih\"");
                 break;
         }
     }
