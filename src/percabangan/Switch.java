@@ -22,7 +22,7 @@ public class Switch {
                 System.out.println("Dosen : \"Nama & NPM?\"");
                 System.out.println("Mhs   : \"Mustaqim Noor, NPM 18631043\"");
                 System.out.println("Dosen : \"Absensi bagus, Tugas bagus, UTS bagus, UAS bagus, hadang Bapak ganti jadi A\"");
-                System.out.println("Mhs   : \"Inggih Pak pak, Tterima kasih\"");
+                System.out.println("Mhs   : \"Inggih Pak, terima kasih\"");
                 break;
         }
     }
